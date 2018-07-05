@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.3.1'
+#password and username protection
+gem "figaro"
 #light user authentication
 gem 'clearance'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
