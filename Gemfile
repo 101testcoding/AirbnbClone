@@ -2,6 +2,10 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.3.1'
+#universal login addition for using other login API
+gem 'omniauth'
+#Google login
+gem 'omniauth-google-oauth2'
 #password and username protection
 gem "figaro"
 #light user authentication
